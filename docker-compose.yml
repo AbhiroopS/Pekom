@@ -1,0 +1,8 @@
+services:
+  p-chan-python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pekom:v0
+    platform: linux/amd64
+    container_name: pekom_dev
