@@ -57,7 +57,7 @@ Generate the comedic summary now:"""
                 headers={
                     "Authorization": f"Bearer {api_key}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "https://github.com/AbhiroopS/joe-mama",
+                    "HTTP-Referer": "https://github.com/AbhiroopS/Pekom",
                     "X-Title": "Pekom Discord Bot"
                 },
                 json={
