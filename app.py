@@ -1,11 +1,19 @@
 import os
 import logging
 import asyncio
+import sys
 
 import discord
 from discord.ext import commands
 
 from dotenv import load_dotenv
+
+# Configure logging to output to stdout instead of stderr
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
 
 load_dotenv("./.env")
 
