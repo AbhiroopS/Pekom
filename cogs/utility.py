@@ -61,7 +61,7 @@ Generate the comedic summary now:"""
                     "X-Title": "Pekom Discord Bot"
                 },
                 json={
-                    "model": "anthropic/claude-3.5-sonnet",
+                    "model": "deepseek/deepseek-v3.2",
                     "messages": [
                         {"role": "user", "content": prompt}
                     ],

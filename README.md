@@ -18,7 +18,7 @@ A Discord bot with a Pekora-themed personality. Built with discord.py, featuring
 - `/getpermschannel` - Get permissions in a specific channel
 
 ### AI Summarization (The Fun Part)
-- `/summarize` - Generate a hilarious AI-powered comedic recap of recent channel messages using OpenRouter (Anthropic Claude)
+- `/summarize` - Generate a hilarious AI-powered comedic recap of recent channel messages using OpenRouter
 
 ### Bot Features
 - Rotating comedic status messages (Pekora-themed!)
