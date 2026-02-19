@@ -180,4 +180,4 @@ async def on_ready():
     logging.info(f"Test server: {TEST_GUILD_ID}")
     logging.info("Bot is ready!")
 
-bot.run(TOKEN, root_logger=True)
+bot.run(TOKEN)
